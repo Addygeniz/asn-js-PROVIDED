@@ -1,4 +1,4 @@
-/************* your name: 
+/************* your name: Addy Geniz
 
 INSTRUCTIONS:
 Comments starting with TO-DO have been included in this file to describe the needed styling: please translate these to the appropriate CSS declarations. 
@@ -24,8 +24,11 @@ body {
 
 /* TO DO: all elements with the .flex class applied are to be made into flex-box containers. */
 
+.flex {
+    display: flex;
+    align-items: center;
+}
 
- 
 
 /************* site-wide text styling *************/
 
