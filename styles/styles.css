@@ -72,13 +72,11 @@ a {
     color: black;
 }
 
-main a:hover,
-footer a:hover {
+main a:hover, footer a:hover {
     text-decoration: underline;
 }
 
-.fake-button:hover,
-.blue-hover:hover {
+.fake-button:hover, .blue-hover:hover {
     text-decoration: underline;
     background-color: #4278e5;
     color: white;
