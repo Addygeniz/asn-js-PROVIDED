@@ -104,7 +104,7 @@ header {
     height: 150px;
 }
 
-/* the <a> tag inside header has class="flex", so it fills the header */
+
 header a {
     width: 100%;
     height: 100%;
@@ -182,16 +182,44 @@ footer {
 
 */
 
+.booking-page {
+    width: 600px;
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: center;
+}
 
+.day-selector {
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 12px;
+}
 
+.day-selector li {
+    width: 60px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 2.5;
+}
 
+.small-button {
+    border: 1px solid black;
+    padding: 5px;
+}
 
+.top-margin {
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
 
+#clear-button {
+    width: 200px;
+    margin: 0 auto;
+}
 
-
-
-
-
+.clicked {
+    background-color: #E5AF42;
+}
 
 
 /************* contact page *************/
