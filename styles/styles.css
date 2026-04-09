@@ -96,8 +96,7 @@ footer a:hover {
     - the footer will be 60px tall, have a font-weight of 200, and the text within will be centered vertically and horizontally.
 */
 
-header,
-footer {
+header, footer {
     background-color: #E5AF42;
 }
 
@@ -141,10 +140,33 @@ footer {
     - the pair of fake-buttons will be centered on the page. HINT: can calculate the required margin to make them appear to be centered.
 */
 
+.index > .flex:first-child {
+    align-items: flex-start;
+}
 
+.index > .flex:first-child > img {
+    width: 300px;
+    flex-shrink: 0;
+    margin-left: 25px;
+    margin-bottom: 50px;
+}
 
+.index h2 {
+    line-height: 1;
+}
 
+.index p {
+    margin-bottom: 12px;
+}
 
+.index > .flex:last-child {
+    margin: 0 150px;
+    gap: 150px;
+}
+
+.index .fake-button {
+    width: 250px;
+}
 
 /************* bookings page *************/
 
