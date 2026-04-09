@@ -3,8 +3,14 @@
 // Do any of these variables need to be initialized when the page is loaded? 
 // When do they need to be reset or updated?
 
+let dailyRate = 35;
+let dayCount = 0;
 
-
+const days = document.querySelectorAll(".day-selector li");
+const fullBtn = document.getElementById("full");
+const halfBtn = document.getElementById("half");
+const clearBtn = document.getElementById("clear-button");
+const costDisplay = document.getElementById("calculated-cost");
 
 /********* colour change days of week *********/
 // when the day buttons are clicked, we will apply the "clicked" class to that element, and update any other relevant variables. Then, we can recalculate the total cost.
